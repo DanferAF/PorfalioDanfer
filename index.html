@@ -130,13 +130,14 @@
 
                 
             </div>
+            <a target="_blank" href="docs/AllgasDanfer CV.pdf">
             <button>
-                DESCARGAR CV <i class="fa-solid fa-download"></i>
+                VER CV <i class="fa-solid fa-download"></i>
+          
                 <span class="overlay"></span>
             </button>
+        </a> 
         </div>
-
-
     </section>
 
     <!--  SOBRE MI  -->
@@ -417,8 +418,8 @@
                         </div>
                         <div class="card-footer">
                             <a id="btnweb" target="_blank" href="https://equipamientomobiliario.netlify.app/"><button><i class="fa-solid fa-globe"></i></button></a>
-                            <a id="btngithub" href="#"><button><i class="fa-brands fa-github"></i></button></a>
-                            <a id= "btnyoutube" href="#"><button ><i class="fa-brands fa-youtube"></i></button></a>
+                           <!-- <a id="btngithub" href="#"><button><i class="fa-brands fa-github"></i></button></a>
+                            <a id= "btnyoutube" href="#"><button ><i class="fa-brands fa-youtube"></i></button></a>  -->
                         </div>
                     </div>
                 </div>
@@ -433,7 +434,7 @@
                             <p class="card-text text-center">Aplicación Movil de tienda virtual de la empresa Equipamiento Mobiliario.</p>
                         </div>
                         <div class="card-footer">
-                            <a id="btngithub" href="#"><button><i class="fa-brands fa-github"></i></button></a>
+                        <!--    <a id="btngithub" href="#"><button><i class="fa-brands fa-github"></i></button></a>  -->
                             <a id= "btnyoutube" href="https://www.youtube.com/watch?v=rECwbKpwP_s&t="><button><i class="fa-brands fa-youtube"></i></button></a>
                         </div>
                     </div>
@@ -449,7 +450,7 @@
                             <p class="card-text text-center">Proyecto de Arduino que simula una caja fuerte, puede enviarse mensajes a la pantalla LCD y abrirse de multples formas.</p>
                         </div>
                         <div class="card-footer">
-                            <a id="btngithub" href="#"><button><i class="fa-brands fa-github"></i></button></a>
+                        <!--    <a id="btngithub" href="#"><button><i class="fa-brands fa-github"></i></button></a>  -->
                             <a id= "btnyoutube"  target="_blank" href="https://www.youtube.com/watch?v=Qu8cClP2qe4&t="><button><i class="fa-brands fa-youtube"></i></button></a>
                         </div>
                     </div>
@@ -525,15 +526,19 @@
             <div class="fila">
                 <!-- Formulario -->
                 <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
-                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                    <form action="https://formsubmit.co/danfer.allgas@hotmail.com" method="POST" >
+                    <input type="text" name="name" id="name" placeholder="Tú Nombre">
+                   
+                    <input type="email" name="email" id="email"  placeholder="Dirección de correo">
+                    <input type="text" name="subject" id="subject" placeholder="Tema">
+                    <textarea name="coments" id="coments" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <input class="btn" type="submit" value="Enviar">
+                    <input type="hidden" name="_text" value="https://danferallgasfranco-portafolio.netlify.app/">
+                    <input type="hidden" name="_captcha" value="false">
+                    <!--   Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>
-                    </button>
+               --> 
+                    </form>
                 </div>
                 <!-- Mapa -->
                 <div class="col">
